@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff), url(OpenSans.woff) format('woff');
+  }
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff), url('OpenSans-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff) url('OpenSans-Italic.woff') format('woff');
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    margin-bottom: 8ex;
+}
+header {
+    background-color: #DDD;
+    border-bottom: 2px solid #444;
+    font-size: 3em;
+    font-weight: bolder;
+}
+header, main {
+    padding: 1em 0.5em 1em 72px;
+}
+h1, h2, h3 {
+    margin: 0;
+}
+figcaption {
+    color: #bbb;
+    font-weight: bolder;
+    font-style: italic;
+}
+footer {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #007ACC;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+.recipe {
+    color: #007ACC;
+}
