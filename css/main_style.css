@@ -41,6 +41,9 @@ figcaption {
 footer {
     text-align: center;
 }
+img {
+    max-width: 50%;
+}
 a {
     text-decoration: none;
     color: #007ACC;
