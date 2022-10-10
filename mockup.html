@@ -1,0 +1,122 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>web_data</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style type="text/css">
+            .blink_me {
+                animation: blinker 1s linear infinite;
+              }
+              
+              @keyframes blinker {
+                50% {
+                  opacity: 0;
+                }
+              }
+            #container {
+                width: 75%;
+                margin: auto;
+            }
+            header {
+                color: #bbb;
+                font-size: 10em;
+                text-align: center;
+            }
+            a {
+                color: #ffa500;
+                text-decoration: none;
+                font-weight: bolder;
+            }
+            ul {
+              list-style-image: url("https://web.archive.org/web/20091027084741im_/http://geocities.com/mdzilioli/images/arrowred.gif")
+            }
+            .rectangle {
+                margin: auto;
+                color: #FFF;
+                padding: 1em;
+                background-color: #ffa500;
+                position: relative;
+                }
+                #seek {
+                    margin: 1em 0em 1em 0em;
+                    font-size: 1.25em;
+                    border-radius: .2em;
+                    border: 1px solid #444;
+                }
+                .rectangle:after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 0 0 25px 25px;
+                    border-color: transparent transparent #F8F8F8 transparent;
+                }
+                .category {
+                    color: #444;
+                    font-size: 1.5em;
+                    letter-spacing: 5px;
+                }
+                footer {
+                    background-color: #ffa500;
+                    padding: 1em;
+                    border-radius: .4em;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                footer a {
+                    font-size: 1.5em;
+                    color: #fff;
+                    text-decoration: none;
+                    margin-right: 1em;
+                }
+                footer a:hover {
+                    text-decoration: underline;
+                }
+
+    </style>
+    </head>
+    <body>
+        <div id="container">
+        <header>
+            @based_wiki<span class="blink_me">|</span>
+        </header>
+        <nav>
+            <div class="rectangle">
+                That's an ultra local site, generated locally and saved in a private Git repo. These lines are just my notes about several aspects of data and web mainly in English, sometimes in Spanish when I'm feel creative and joyful. A wiki of sorts, a place for organize some notes before passing to more serious matters.
+            </div>
+        </nav>
+        <input id="seek" type="text" placeholder="search, lad!"/>
+        <div class="category">html, css and static [<a href="jjj.html">#link</a>]</div>
+        <ul>
+            <li><a href="genesis.md">The genesis of a design</a>, written on 23 march, 2002</li>
+            <li><a href="cervantes.md">Scrape the Cervantes Institute into oblivion!</a>, written on 11 march, 2002</li>
+            <li><a href="waifu.md">Once upon a time in Waifuland...</a>, written on 09 march, 2002</li>
+        </ul>
+        <div class="category">sql</div>
+        <div class="category">r</div>
+        <div class="category">python</div>
+        <div class="category">javascript</div>
+        <div class="category">apis</div>
+        <div class="category">backend</div>
+        <div class="category">linux, shell and devops matters</div>
+        <div class="category">maths and stats</div>
+        <div class="category">misc</div>
+        <ul>
+            <li><a href="vivaldi.md">Vivaldi is a pro web browser and we can make it even moar pro</a>, written in 20 march, 2002</li>
+        </ul>
+        <div class="category">links, links and moar links</div>
+        <div class="category">news of mine</div>
+        <a href="archive" alt="AR CHIVO"><img src="https://web.archive.org/web/20091024091730im_/http://geocities.com/gmahass/goat.gif"/></a>
+
+    <footer>
+        <div id="menu">
+        <a href="ethos">ethos</a><a href="archive">archive<a href="tags">tags</a></div>
+        <div id="copyright"><i class="fa fa-copyright fa-flip-horizontal"></i> 2022, Media Inc Industries</div>
+    </footer>
+    </div>
+    </body>
+</html>
